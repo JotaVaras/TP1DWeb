@@ -22,4 +22,25 @@ body{
     display: flex;
 }
 
+.titulo, abtitulo{
+    margin-bottom: 15px;
+}
+
+form{
+    display: inline-block;
+    padding: 80px 0 0 180px;
+}
+
+input{
+    margin-top: 5px;
+    height: 25px;
+    width: 270px;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 5px;
+}
+
+
+
+
 
