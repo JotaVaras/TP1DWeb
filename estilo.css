@@ -22,10 +22,6 @@ body{
     display: flex;
 }
 
-.titulo, abtitulo{
-    margin-bottom: 15px;
-}
-
 form{
     display: inline-block;
     padding: 80px 0 0 180px;
@@ -34,11 +30,83 @@ form{
 input{
     margin-top: 5px;
     height: 25px;
-    width: 270px;
+    width: 340px;
     border-radius: 10px;
     border-style: solid;
     padding: 5px;
 }
+
+.check{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.cubito{
+   height: 15px; 
+   width: 15px;
+   margin-left: 6px;
+}
+
+.forgot{
+    margin-left: 25px;  
+    text-decoration: none;
+    color: black;
+}
+
+.botonblack, .botongoogle{
+    margin-top: 10px;
+}
+
+.botonblack{
+    height: 40px;
+    width: 352px;
+    border-radius: 10px;
+    padding: 5px;
+    border-style: solid;
+    background-color:black;
+    color:white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.botongoogle{
+    height: 40px;
+    width: 352px;
+    border-radius: 10px;
+    padding: 5px;
+    border-style: solid;
+    background-color: white;
+    border-color: #ededed;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.googleicon{
+    width: 20px;
+    margin-right: 8px;
+} 
+
+.registrarse{
+    display: flex;
+    text-align: center;
+}
+
+.grisd{
+    margin-top: 45px;
+    margin-left: 30px;
+    color: gray;
+}
+
+.signup{
+    margin-top: 45px;
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
 
 
 
